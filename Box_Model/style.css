@@ -1,0 +1,31 @@
+div {
+
+    /* Propiedades Basicas do Conteudo -> width & height */
+
+    width: 500px; /* Largura */
+    height: 500px; /* Altura */
+    background-color: blue;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+
+    /* Padding: Preenchimento */
+
+    padding: 25px;
+
+    /* Border: Borda */
+
+   border-left: 10px dotted rgba(255,255,255,0.8);
+
+
+   /* Margin: Margem */
+
+   margin-top: 100px;
+   margin-left: 100px;
+
+    /* Mudar os limites da caixa */
+
+    box-sizing: border-box; /* Mantem sempre a nossa box do mesmo tamanho definido com o width e o height */
+
+}
+
